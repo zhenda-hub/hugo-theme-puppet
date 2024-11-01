@@ -4,7 +4,7 @@
 {{ template "_internal/disqus.html" . }}
 {{ end }}
 
-{{ $giscus := .Site.Params.giscus }}
+{{ if .Site.Config.Services.Disqus.Shortname }}
 {{ if $giscus.enable }}
 <div class="giscus" id="comments"></div>
 <script src="https://giscus.app/client.js" 
