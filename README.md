@@ -1,4 +1,11 @@
-# Hugo Theme Puppet
+# Hugo Theme Puppet2
+
+## Features
+
+- [x] mermaid
+- [x] view count
+- [x] math
+
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/275ce227-7872-4314-8b54-5499ba237c18/deploy-status)](https://app.netlify.com/sites/hugo-theme-puppet/deploys)
 
